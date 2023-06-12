@@ -1,0 +1,643 @@
+{
+  "id": "b7cde1f7-31e7-48f5-8314-ed7d9f99a201",
+  "version": "2.0",
+  "name": "BR homework",
+  "url": "https://dou.ua/",
+  "tests": [{
+    "id": "1fa23a59-fcc4-4639-aaee-eb3b6c8e34a9",
+    "name": "Test 1",
+    "commands": [{
+      "id": "b2215a4d-1861-4be3-b61d-505a190d1bce",
+      "comment": "",
+      "command": "open",
+      "target": "https://dou.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2ac33c2-851d-448a-82de-015619ec1a24",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb77ba18-cc7d-490d-b692-0d8ae1fef0d4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Форум')]",
+      "targets": [
+        ["css=.b-head li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Форум')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://dou.ua/forums/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19a99ca1-92e2-4352-8387-8e6f1476a5d4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Як відправляти імейли у Python: приклади для різних потреб')]",
+      "targets": [
+        ["linkText=Як відправляти імейли у Python: приклади для різних потреб", "linkText"],
+        ["css=.section:nth-child(1) li:nth-child(1) > .link", "css:finder"],
+        ["xpath=//a[contains(text(),'Як відправляти імейли у Python: приклади для різних потреб')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://dou.ua/forums/topic/43840/?from=fortech')]", "xpath:href"],
+        ["xpath=//div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Як відправляти імейли у Python: приклади для різних потреб')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cb96616-562e-4469-bc38-39726905e223",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Стрічка')]",
+      "targets": [
+        ["css=.b-head li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Стрічка')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://dou.ua/lenta/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4599816-4f74-454b-80a0-68c4460bf4b8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'📊 Аналітика')]",
+      "targets": [
+        ["linkText=📊 Аналітика", "linkText"],
+        ["css=.section:nth-child(1) > .section-title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'📊 Аналітика')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/lenta/tags/аналитика/?from=strichan')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'📊 Аналітика')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6bd955d-5930-413e-98d1-8efb90e18904",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Добірка українських ІТ подкастів')]",
+      "targets": [
+        ["linkText=Добірка українських ІТ подкастів", "linkText"],
+        ["css=.b-similar li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Добірка українських ІТ подкастів')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://dou.ua/tech-podcasts-ua/?from=special')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Добірка українських ІТ подкастів')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "84326cfb-282d-48b7-89d8-bc143d13bc57",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Календар')]",
+      "targets": [
+        ["css=.m-last > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Календар')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://dou.ua/calendar/')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bc79078-ac80-4b06-beda-0db9d71f2b89",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//select[@name='city']",
+      "targets": [
+        ["name=city", "name"],
+        ["css=select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='city']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a22fef8-cd0b-4c3a-b70e-d51259368521",
+      "comment": "",
+      "command": "select",
+      "target": "name=city",
+      "targets": [],
+      "value": "label=Львів"
+    }, {
+      "id": "0a3db4e1-c560-41b9-99f5-0bc3c5a56e64",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//select[@name='tag']",
+      "targets": [
+        ["name=tag", "name"],
+        ["css=select:nth-child(3)", "css:finder"],
+        ["xpath=//select[@name='tag']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaa59428-9dca-4b16-8333-b3a25e9986ac",
+      "comment": "",
+      "command": "select",
+      "target": "name=tag",
+      "targets": [],
+      "value": "label=.NET"
+    }]
+  }, {
+    "id": "f6b13d17-21fb-4079-8fc9-3708ea1231a6",
+    "name": "Test 2",
+    "commands": [{
+      "id": "e8c394cf-56c1-4eee-9067-c91da0b0ea4e",
+      "comment": "",
+      "command": "open",
+      "target": "https://dou.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9287133-0d9c-4075-ae37-6c90cde0ba4f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d603da95-453e-4f04-b23b-512427362423",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-index-links > li:nth-child(1) > a",
+      "targets": [
+        ["linkText=Перша робота", "linkText"],
+        ["css=.b-index-links > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Перша робота')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://jobs.dou.ua/first-job/?from=doufp')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Перша робота')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1a00e65-2aa2-40b6-a542-2ac0a21b7cca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.first-job-cities > a:nth-child(2)",
+      "targets": [
+        ["linkText=віддалено", "linkText"],
+        ["css=.first-job-cities > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'віддалено')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://jobs.dou.ua/first-job/?city=remote')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'віддалено')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1ea2dcb-85c6-4c3f-b8c7-d7b24ea6c50e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.first-job-cities > a:nth-child(3)",
+      "targets": [
+        ["linkText=Київ", "linkText"],
+        ["css=.first-job-cities > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Київ')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div[2]/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://jobs.dou.ua/first-job/?city=kyiv')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Київ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c36fb0f-7092-479f-80ad-99038566e231",
+      "comment": "",
+      "command": "click",
+      "target": "css=.title:nth-child(1) > .vt",
+      "targets": [
+        ["linkText=Lead Generation Manager (IoT Sales Team)", "linkText"],
+        ["css=.title:nth-child(1) > .vt", "css:finder"],
+        ["xpath=//a[contains(text(),'Lead Generation Manager (IoT Sales Team)')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div[2]/div[3]/ul/li/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://jobs.dou.ua/companies/tektelic/vacancies/173283/?from=list_hot')]", "xpath:href"],
+        ["xpath=//li/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lead Generation Manager (IoT Sales Team)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7f141b4-071a-4cac-8e06-195c42b0c43a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-dou-vacancies:nth-child(1) li:nth-child(3) > a:nth-child(1)",
+      "targets": [
+        ["linkText=Affiliate Manager", "linkText"],
+        ["css=.b-dou-vacancies:nth-child(1) li:nth-child(3) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Affiliate Manager')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div[2]/div/div[2]/div[3]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://jobs.dou.ua/companies/jbw-soft/vacancies/151251/?from=widget_hot_beginners')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Affiliate Manager')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "757b28c0-a608-4b3c-8227-778f33ec4709",
+      "comment": "",
+      "command": "click",
+      "target": "css=.all-v",
+      "targets": [
+        ["linkText=Всі вакансії компанії", "linkText"],
+        ["css=.all-v", "css:finder"],
+        ["xpath=//a[contains(text(),'Всі вакансії компанії')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div[2]/div/div[2]/div/div/div/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://jobs.dou.ua/companies/jbw-soft/vacancies/')]", "xpath:href"],
+        ["xpath=//div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Всі вакансії компанії')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd05d39f-631b-458d-b4d5-d90b9fe8056e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.company-nav > li:nth-child(3) > a",
+      "targets": [
+        ["linkText=Фотографії", "linkText"],
+        ["css=.company-nav > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Фотографії')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div[2]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://jobs.dou.ua/companies/jbw-soft/photos/')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Фотографії')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f1a6065-e032-4d0d-87d4-55c7f58f5f2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.company-nav > li:nth-child(4) > a",
+      "targets": [
+        ["linkText=Офіси", "linkText"],
+        ["css=.company-nav > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Офіси')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div[2]/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://jobs.dou.ua/companies/jbw-soft/offices/')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Офіси')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71da4d69-a70f-4e47-a2d2-0d7ca75e677c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.company-nav > li:nth-child(5) > a",
+      "targets": [
+        ["css=.company-nav > li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Відгуки')])[2]", "xpath:link"],
+        ["xpath=//div[@id='container']/div[2]/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://jobs.dou.ua/companies/jbw-soft/reviews/')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bf86bbd-2bd3-4197-a69e-c83559ad8ca4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.company-nav > li:nth-child(6) > a",
+      "targets": [
+        ["linkText=Анкета", "linkText"],
+        ["css=.company-nav > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Анкета')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div[2]/div/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://jobs.dou.ua/companies/jbw-soft/poll/')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Анкета')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "43f7de03-fb51-4e85-9d94-4f48c6996ed0",
+    "name": "Test 3",
+    "commands": [{
+      "id": "92c2fd8a-c756-479a-a62d-57c7aa7b076c",
+      "comment": "",
+      "command": "open",
+      "target": "https://dou.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d769b394-59e2-4678-a0b0-f90573e22d10",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "259a54ed-1ada-4752-89ae-6a907553c763",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Портрет айтівця')]",
+      "targets": [
+        ["linkText=Портрет айтівця", "linkText"],
+        ["css=.b-index-links > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Портрет айтівця')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://dou.ua/lenta/articles/portrait-2022/?from=doufp')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Портрет айтівця')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89a31571-eb89-4c7a-816e-eea6755c9708",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'тестувальників')]",
+      "targets": [
+        ["linkText=тестувальників", "linkText"],
+        ["css=em > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'тестувальників')]", "xpath:link"],
+        ["xpath=//div[@id='sctn-intro']/p[3]/em/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://dou.ua/lenta/articles/salary-report-qa-summer-2022/')]", "xpath:href"],
+        ["xpath=//em/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'тестувальників')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9069",
+      "windowTimeout": 2000
+    }, {
+      "id": "adcbe5c7-7e68-4e52-995e-e4fa23d1602e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9069}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f52477e-3c03-4f3b-b1e8-b113ff81a8e0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'зарплати українських тестувальників, зима 2023')]",
+      "targets": [
+        ["linkText=зарплати українських тестувальників, зима 2023", "linkText"],
+        ["css=.fresh-analytics > a", "css:finder"],
+        ["xpath=//a[contains(text(),'зарплати українських тестувальників, зима 2023')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://dou.ua/lenta/articles/salary-report-qa-winter-2023/')]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'зарплати українських тестувальників, зима 2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0f5c877-0b50-4dc4-9234-a944be3a3fcc",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'● Найвищі зарплати у QA-фахівців, які нині перебувають за кордоном: медіана — $2500. Та сама ситуація, що й у розробників.')]",
+      "targets": [
+        ["css=span:nth-child(5)", "css:finder"],
+        ["xpath=//span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'● Найвищі зарплати у QA-фахівців, які нині перебувають за кордоном: медіана — $2500. Та сама ситуація, що й у розробників.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4d0c088-3f12-47e2-984a-6e14aac3e21c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Редакція DOU')]",
+      "targets": [
+        ["linkText=Редакція DOU", "linkText"],
+        ["css=.name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Редакція DOU')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://dou.ua/users/dou-editors/')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Редакція DOU')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82b49740-45fa-40b0-8d71-2285dcc446db",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Коментарі')]",
+      "targets": [
+        ["linkText=Коментарі", "linkText"],
+        ["css=.b-content-menu:nth-child(2) > li:nth-child(2) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Коментарі')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://dou.ua/users/dou-editors/activities/')]", "xpath:href"],
+        ["xpath=//li[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Коментарі')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9584ccd-f70a-420f-b186-e6789cd46e5f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Топіки')]",
+      "targets": [
+        ["linkText=Топіки", "linkText"],
+        ["css=li:nth-child(4) > .wrap > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Топіки')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://dou.ua/users/dou-editors/topics/')]", "xpath:href"],
+        ["xpath=//li[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Топіки')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0314c05b-ea74-4094-ae8a-6ffdb633bc45",
+    "name": "Test4",
+    "commands": [{
+      "id": "bd13f0dd-9351-44af-8b3d-6de326a56473",
+      "comment": "",
+      "command": "open",
+      "target": "https://dou.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ba8233a-bbd2-4d81-b99e-759b51d261c5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b078708-76f2-4235-b7c4-e3422a4768f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.highlighted > a",
+      "targets": [
+        ["css=.highlighted > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Military-tech')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://dou.ua/goto/kv8H')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8184",
+      "windowTimeout": 2000
+    }, {
+      "id": "70f071ea-9759-4b34-ad16-23af01f650ac",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8184}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdc033f3-3856-42fb-a098-24d8b86a29fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-head li:nth-child(3) > a",
+      "targets": [
+        ["css=.b-head li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Форум')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://dou.ua/forums/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f406b3a0-c488-4548-9967-a25ee7a8de70",
+      "comment": "",
+      "command": "click",
+      "target": "css=.column-list-item:nth-child(1) > .link",
+      "targets": [
+        ["linkText=Хмарні бази даних. Детальна інструкція, як застосовувати сучасний IT-підхід", "linkText"],
+        ["css=.column-list-item:nth-child(1) > .link", "css:finder"],
+        ["xpath=//a[contains(text(),'Хмарні бази даних. Детальна інструкція, як застосовувати сучасний IT-підхід')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://dou.ua/forums/topic/43820/?from=forcol')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Хмарні бази даних. Детальна інструкція, як застосовувати сучасний IT-підхід')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "546f8e36-69d3-43a7-ae75-14fb6e93b883",
+      "comment": "",
+      "command": "click",
+      "target": "css=.add-button-sidebar",
+      "targets": [
+        ["linkText=Додати подію", "linkText"],
+        ["css=.add-button-sidebar", "css:finder"],
+        ["xpath=//a[contains(text(),'Додати подію')]", "xpath:link"],
+        ["xpath=//aside[@id='fixedableRightSide']/div/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://dou.ua/calendar/add/?from=devops')]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Додати подію')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4004",
+      "windowTimeout": 2000
+    }, {
+      "id": "306d8f19-27c0-46f3-9ef5-bf47a460be89",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4004}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4114867b-c907-42c5-83af-e19f2dda1fab",
+      "comment": "",
+      "command": "click",
+      "target": "css=#txtTitle",
+      "targets": [
+        ["id=txtTitle", "id"],
+        ["name=title", "name"],
+        ["css=#txtTitle", "css:finder"],
+        ["xpath=//input[@id='txtTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='_frm']/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c0a3294-ca1d-4478-81e5-5c85dd112294",
+      "comment": "",
+      "command": "type",
+      "target": "css=#txtTitle",
+      "targets": [
+        ["id=txtTitle", "id"],
+        ["name=title", "name"],
+        ["css=#txtTitle", "css:finder"],
+        ["xpath=//input[@id='txtTitle']", "xpath:attributes"],
+        ["xpath=//form[@id='_frm']/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "1111"
+    }, {
+      "id": "8fb54454-c80d-4316-9c65-6aa3534d77b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=#txtDate",
+      "targets": [
+        ["id=txtDate", "id"],
+        ["name=date", "name"],
+        ["css=#txtDate", "css:finder"],
+        ["xpath=//input[@id='txtDate']", "xpath:attributes"],
+        ["xpath=//div[@id='row_date']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3d4b0b1-8117-49c0-99fe-698348ffedb0",
+      "comment": "",
+      "command": "type",
+      "target": "css=#txtDate",
+      "targets": [
+        ["id=txtDate", "id"],
+        ["name=date", "name"],
+        ["css=#txtDate", "css:finder"],
+        ["xpath=//input[@id='txtDate']", "xpath:attributes"],
+        ["xpath=//div[@id='row_date']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "2023-06-12"
+    }, {
+      "id": "85bff74c-b6b5-4d50-8b92-ae912650fa2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#txtCost",
+      "targets": [
+        ["id=txtCost", "id"],
+        ["name=cost", "name"],
+        ["css=#txtCost", "css:finder"],
+        ["xpath=//input[@id='txtCost']", "xpath:attributes"],
+        ["xpath=//form[@id='_frm']/div/div[4]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9aa5b75c-62b6-4c2e-b662-551cf18788e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtCost",
+      "targets": [
+        ["id=txtCost", "id"],
+        ["name=cost", "name"],
+        ["css=#txtCost", "css:finder"],
+        ["xpath=//input[@id='txtCost']", "xpath:attributes"],
+        ["xpath=//form[@id='_frm']/div/div[4]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "c1bf9700-7064-491a-9765-57e3a653ff5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtPlace",
+      "targets": [
+        ["id=txtPlace", "id"],
+        ["name=place", "name"],
+        ["css=#txtPlace", "css:finder"],
+        ["xpath=//input[@id='txtPlace']", "xpath:attributes"],
+        ["xpath=//form[@id='_frm']/div/div[5]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e115829d-e584-4a42-b9ce-e259187db6c4",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtPlace",
+      "targets": [
+        ["id=txtPlace", "id"],
+        ["name=place", "name"],
+        ["css=#txtPlace", "css:finder"],
+        ["xpath=//input[@id='txtPlace']", "xpath:attributes"],
+        ["xpath=//form[@id='_frm']/div/div[5]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Київ"
+    }]
+  }],
+  "suites": [{
+    "id": "0278bc5f-f33b-4ba2-8f27-733419d49803",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://dou.ua/"],
+  "plugins": []
+}
